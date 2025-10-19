@@ -1,0 +1,21 @@
+
+<resources>
+<color name="sweet_pink">#F8AFA6</color>
+<color name="mint_cream">#FFF7F9</color>
+<color name="berry_purple">#C97EA7</color>
+<color name="icecreamBackground">#FFF9E6</color> <!-- Light creamy background -->
+<color name="icecreamPink">#FF69B4</color>        <!-- Strawberry pink -->
+<color name="icecreamBlue">#40C4FF</color>        <!-- Sky blue -->
+<color name="icecreamYellow">#FFD54F</color>      <!-- Mango yellow -->
+<color name="black">#000000</color>
+<color name="white">#FFFFFF</color>
+
+        <!-- Primary colors -->
+        <color name="pink_500">#FF69B4</color>        <!-- Light Pink -->
+        <color name="pink_700">#C2185B</color>        <!-- Dark Pink -->
+        <color name="purple_500">#9C27B0</color>      <!-- Light Purple -->
+        <color name="purple_700">#7B1FA2</color>      <!-- Dark Purple -->
+
+
+</resources>
+

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_15"
+    android:fillViewport="true"
+    tools:context=".SignupActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="32dp">
+
+        <!-- 🍦 Title -->
+
+        <!-- 🍰 Signup Card -->
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:fontFamily="sans-serif-medium"
+            android:shadowColor="@color/sweet_pink"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="3"
+            android:text="🍧 Sweet n Swirls 🍨"
+            android:textColor="@color/berry_purple"
+            android:textSize="32sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_rounded"
+            android:elevation="8dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <!-- 👩 Name -->
+
+            <EditText
+                android:id="@+id/etName"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/bg_input_field"
+                android:hint="Full Name"
+                android:inputType="textPersonName"
+                android:padding="18dp"
+                android:textColor="@android:color/black"
+                android:textColorHint="#AA6C7A"
+                android:textSize="18sp"
+                android:gravity="center_vertical" />
+
+            <!-- 📧 Email -->
+            <EditText
+                android:id="@+id/etEmail"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/bg_input_field"
+                android:hint="Email Address"
+                android:inputType="textEmailAddress"
+                android:padding="18dp"
+                android:textSize="18sp"
+                android:textColor="@android:color/black"
+                android:textColorHint="#AA6C7A" />
+
+            <!-- 🔒 Password -->
+            <EditText
+                android:id="@+id/etPassword"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/bg_input_field"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:padding="18dp"
+                android:textSize="18sp"
+                android:textColor="@android:color/black"
+                android:textColorHint="#AA6C7A" />
+
+            <!-- 🔒 Confirm Password -->
+            <EditText
+                android:id="@+id/etConfirmPassword"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginBottom="24dp"
+                android:background="@drawable/bg_input_field"
+                android:hint="Confirm Password"
+                android:inputType="textPassword"
+                android:padding="18dp"
+                android:textSize="18sp"
+                android:textColor="@android:color/black"
+                android:textColorHint="#AA6C7A" />
+
+            <!-- 🌈 Signup Button -->
+            <Button
+                android:id="@+id/btnSignup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/sweet_pink"
+                android:elevation="6dp"
+                android:padding="12dp"
+                android:text="Sign Up"
+                android:textColor="@color/icecreamPink"
+
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <!-- 💕 Login Link -->
+            <TextView
+                android:id="@+id/tvLoginLink"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="8dp"
+                android:text="Already have an account? Log in here!"
+                android:textColor="@color/berry_purple"
+                android:textSize="14sp"
+                android:textStyle="italic" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

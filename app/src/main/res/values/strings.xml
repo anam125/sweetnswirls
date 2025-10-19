@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">SweetnSwirls🍦</string>
+    <string name="welcome_text">Welcome to Sweet n Swirls 🍨</string>
+
+
+
+        <string name="welcome_title">🍦Welcome to\nSweet n Swirls🍧</string>
+        <string name="welcome_tagline">Indulge in Happiness 🍰✨</string>
+
+
+        <string name="login_button_text">🍰  LOGIN 🍰 </string>
+        <string name="signup_button_text">🍦CREATE ACCOUNT🍦 </string>
+
+
+    <string name="dynamic_welcome_message">🍦 Welcome to Sweet n Swirls 🍧\nHello, %1$s! Enjoy your delightful scoops today! 🍰</string>
+
+    <string name="log_out">Logout</string>
+    <string name="hint_email">Enter Email</string>
+    <string name="hint_password">Enter Password</string>
+    <string name="login_button">Login</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="signup">SignUp</string>
+    <string name="footer_text">© 2025 SweetNSwirls</string>
+    <string name="sweetnswirls">SweetnSwirls 🍦</string>
+    <string name="toast_empty">Please enter email and password 🍧</string>
+    <string name="toast_no_account">No account found. Please register 🍨</string>
+    <string name="toast_wrong_password">Incorrect password ❌</string>
+</resources>
