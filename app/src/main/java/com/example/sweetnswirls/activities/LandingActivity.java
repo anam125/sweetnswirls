@@ -1,10 +1,12 @@
-package com.example.sweetnswirls;
+package com.example.sweetnswirls.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.*;
 import android.content.Intent;
 import android.content.SharedPreferences;
+
+import com.example.sweetnswirls.R;
 
 public class LandingActivity extends AppCompatActivity {
 

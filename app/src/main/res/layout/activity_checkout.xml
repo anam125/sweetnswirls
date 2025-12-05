@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_28"
+    android:padding="16dp">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#80FFFFFF"
+            android:padding="16dp"
+            android:gravity="center_horizontal">
+
+            <!-- Name -->
+            <EditText
+                android:id="@+id/nameEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/btn_pink"
+                android:hint="👤 Name"
+                android:padding="12dp"
+                android:textColor="#7A2F91"
+                android:textColorHint="#FFFF"
+                android:gravity="center"/>
+
+            <!-- Phone -->
+            <EditText
+                android:id="@+id/phoneEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:hint="📞 Phone"
+                android:inputType="phone"
+                android:background="@drawable/btn_pink"
+                android:padding="12dp"
+                android:textColor="#7A2F91"
+                android:textColorHint="#FFFF"
+                android:gravity="center"/>
+
+            <!-- Address -->
+            <EditText
+                android:id="@+id/addressEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:hint="🏠 Address"
+                android:background="@drawable/btn_pink"
+                android:padding="12dp"
+                android:textColor="#7A2F91"
+                android:textColorHint="#FFFF"
+                android:gravity="center"/>
+
+            <!-- Payment Method -->
+            <TextView
+                android:id="@+id/paymentText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="💳 Payment Method"
+                android:textSize="20sp"
+                android:textColor="#D6336C"
+                android:layout_marginTop="12dp"
+                android:gravity="center"/>
+
+            <!-- Cash -->
+            <RadioButton
+                android:id="@+id/cashRadio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cash"
+
+                android:textColor="#6A4C93"
+                android:layout_marginTop="4dp"/>
+
+            <!-- Card -->
+            <RadioButton
+                android:id="@+id/cardRadio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Card"
+                android:textColor="#6A4C93"
+                android:layout_marginTop="4dp"/>
+
+            <!-- Confirm Order Button -->
+            <Button
+                android:id="@+id/confirmBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Confirm Order 🛒"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/btn_pink"/>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

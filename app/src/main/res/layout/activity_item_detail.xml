@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_30">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="50dp">
+
+        <!-- Ice Cream Image -->
+        <ImageView
+            android:id="@+id/detailImage"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_launcher_foreground"
+            android:background="@drawable/rounded_image"
+            android:clipToOutline="true"/>
+
+        <!-- Ice Cream Name -->
+        <TextView
+            android:id="@+id/detailName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🍦 Chocolate Delight 🍨"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#D6336C"
+        android:layout_marginTop="12dp"
+        android:gravity="center"/>
+
+        <!-- Ice Cream Description -->
+        <TextView
+            android:id="@+id/detailDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delicious creamy chocolate ice cream with sprinkles and chunks!"
+            android:textSize="20sp"
+            android:textColor="#6A4C93"
+        android:layout_marginTop="8dp"
+        android:lineSpacingExtra="2dp"
+        android:gravity="center"/>
+
+        <!-- Ice Cream Price -->
+        <TextView
+            android:id="@+id/detailPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rs 250"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="#FF69B1"
+        android:layout_marginTop="8dp"
+        android:gravity="center"/>
+
+        <!-- Quantity Buttons -->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp">
+
+            <Button
+                android:id="@+id/minusBtn"
+                android:text="-"
+                android:textSize="30sp"
+                android:textColor="#D6336C"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="4dp"
+                android:background="@drawable/btn_pink"/>
+
+            <TextView
+                android:id="@+id/quantityText"
+                android:text="1"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="#333333"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="4dp"
+                android:padding="8dp"
+                android:background="@drawable/rounded_textview"/>
+
+            <Button
+                android:id="@+id/plusBtn"
+                android:text="+"
+                android:textSize="30sp"
+                android:textColor="#D6336C"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="4dp"
+                android:background="@drawable/btn_pink"/>
+        </LinearLayout>
+
+        <!-- Add to Cart Button -->
+        <Button
+            android:id="@+id/addToCartBtn"
+            android:text="Add to Cart 🛒"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_pink"/>
+    </LinearLayout>
+</ScrollView>

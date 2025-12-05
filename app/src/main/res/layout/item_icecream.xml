@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:padding="12dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/ice_item_bg"
+    android:gravity="center_vertical">
+
+    <!-- Ice Cream Image -->
+<ImageView
+android:id="@+id/iceImage"
+android:layout_width="100dp"
+android:layout_height="100dp"
+android:src="@drawable/ic_launcher_foreground"
+android:scaleType="centerCrop"
+android:background="@drawable/ice_image_bg"
+android:padding="4dp"
+android:layout_gravity="center_vertical" />
+
+    <!-- Name & Price -->
+<LinearLayout
+android:orientation="vertical"
+android:layout_marginStart="12dp"
+android:layout_width="0dp"
+android:layout_weight="1"
+android:layout_height="wrap_content"
+android:gravity="center_vertical">
+
+<!-- Ice Cream Name -->
+<TextView
+    android:id="@+id/iceName"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Chocolate 🍦"
+    android:textSize="25sp"
+    android:textStyle="bold"
+    android:textColor="#D147A3"
+android:gravity="start"/>
+
+<!-- Ice Cream Price -->
+<TextView
+    android:id="@+id/icePrice"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Rs 200"
+    android:textSize="20sp"
+    android:textColor="#6C63FF"
+android:gravity="start"
+android:layout_marginTop="2dp"/>
+</LinearLayout>
+    </LinearLayout>

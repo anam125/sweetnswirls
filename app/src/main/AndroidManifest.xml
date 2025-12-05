@@ -16,20 +16,26 @@
         android:theme="@style/Theme.SweetNSwirls">
 
         <!-- 💖 All Screens for Ice Cream Shop -->
-        <activity android:name=".LoginActivity" />
-        <activity android:name=".ResetPasswordActivity" />
-        <activity android:name=".ForgetPasswordActivity" />
-        <activity android:name=".SignupActivity" />
+        <activity android:name=".activities.LoginActivity" />
+        <activity android:name=".activities.ResetPasswordActivity" />
+        <activity android:name=".activities.ForgetPasswordActivity" />
+        <activity android:name=".activities.SignupActivity" />
+
 
         <!-- 🍦 Launcher Activity (App Start) -->
         <activity
-            android:name=".LandingActivity"
+            android:name=".activities.LandingActivity"
             android:exported="true">   <!-- ✅ Required for Android 12+ -->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".activities.MenuActivity" />
+        <activity android:name=".activities.ItemDetailActivity" />
+        <activity android:name=".activities.CartActivity" />
+        <activity android:name=".activities.CheckoutActivity" />
+        <activity android:name=".activities.OrderConfirmationActivity" />
 
     </application>
 

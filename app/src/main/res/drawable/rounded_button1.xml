@@ -1,0 +1,5 @@
+<!-- res/drawable/rounded_button.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#FFD7E5"/> <!-- pastel pink -->
+    <corners android:radius="12dp"/>
+</shape>

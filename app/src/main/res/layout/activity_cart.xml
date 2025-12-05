@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="40dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_13">
+
+
+    <!-- Scrollable Cart Items -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true">
+        <LinearLayout
+            android:id="@+id/cartLayout"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="18dp"/>
+    </ScrollView>
+
+
+    <!-- Total Price -->
+    <TextView
+        android:id="@+id/totalText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🛒 Total: Rs 0"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#D6336C"
+        android:layout_marginTop="15dp"
+        android:gravity="center"/>
+
+    <!-- Checkout Button -->
+    <Button
+        android:id="@+id/checkoutBtn"
+        android:text="Checkout 🍦"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/btn_pink"/>
+</LinearLayout>
+
+

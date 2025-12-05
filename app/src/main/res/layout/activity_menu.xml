@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/menuLayout"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="25dp"
+    android:background="@drawable/img_31">
+
+    <!-- Search Bar -->
+
+    <!-- RecyclerView for Menu Items -->
+    <EditText
+        android:id="@+id/searchBar"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/rounded_edittext_bg"
+        android:hint="Search your favourite delight🍦"
+        android:padding="13dp"
+        android:textColor="#4B0082"
+        android:textColorHint="#BA55D3" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerMenu"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"/>
+
+    <!-- Bottom Cart -->
+    <LinearLayout
+        android:id="@+id/bottomCart"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/bg_card_pastel"
+        android:padding="16dp"
+        android:elevation="5dp">
+
+        <TextView
+            android:id="@+id/cartCount"
+            android:text="Cart: 0 items"
+            android:textSize="16sp"
+            android:textColor="#4B0082"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/goToCart"
+            android:text="Go to Cart"
+            android:background="@drawable/rounded_button_purple"
+            android:textColor="#FFFFFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"/>
+    </LinearLayout>
+
+</LinearLayout>
